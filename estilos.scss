@@ -1,0 +1,202 @@
+
+body {
+	background:#ecf0f1;
+
+	.container{
+		width: 120px;
+		margin: 40px auto;
+		position:relative;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+	.rectangle{
+		position:absolute;
+		background:#c0392b;
+		width: 70px;
+		height: 300px;
+		margin: 50px auto;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+		-webkit-animation-name: animacion1;
+		-webkit-animation-duration: 0.5s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-direction: normal;
+		-webkit-animation-timing-function: linear;
+
+		-moz-animation-name: animacion1;
+		-moz-animation-duration: 0.5s;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-direction: normal;
+		-moz-animation-timing-function: linear;
+
+		-o-animation-name: animacion1;
+		-o-animation-duration: 0.5s;
+		-o-animation-iteration-count: infinite;
+		-o-animation-direction: normal;
+		-o-animation-timing-function: linear;
+		}
+
+
+
+		.rectangle:nth-child(1){
+			-moz-transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
+
+
+			-webkit-animation-name: animacion2;
+			-webkit-animation-duration: 0.5s;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-direction: normal;
+			-webkit-animation-timing-function: linear;
+
+			-moz-animation-name: animacion2;
+			-moz-animation-duration: 0.5s;
+			-moz-animation-iteration-count: infinite;
+			-moz-animation-direction: normal;
+			-moz-animation-timing-function: linear;
+
+
+			-o-animation-name: animacion2;
+			-o-animation-duration: 0.5s;
+			-o-animation-iteration-count: infinite;
+			-o-animation-direction: normal;
+			-o-animation-timing-function: linear;
+		}
+
+
+
+		.rectangle:nth-child(2){
+			-moz-transform: rotate(45deg);
+			-webkit-transform: rotate(45deg);
+			-o-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+
+			-webkit-animation-name: animacion3;
+			-webkit-animation-duration: 0.5s;
+			-webkit-animation-iteration-count: infinite;
+  			-webkit-animation-direction: normal;
+  			-webkit-animation-timing-function: linear;
+
+  			-moz-animation-name: animacion3;
+			-moz-animation-duration: 0.5s;
+			-moz-animation-iteration-count: infinite;
+  			-moz-animation-direction: normal;
+  			-moz-animation-timing-function: linear;
+
+  			-o-animation-name: animacion3;
+			-o-animation-duration: 0.5s;
+			-o-animation-iteration-count: infinite;
+  			-o-animation-direction: normal;
+  			-o-animation-timing-function: linear;
+		}
+
+		.rectangle:nth-child(3){
+			-moz-transform: rotate(135deg);
+			-webkit-transform: rotate(135deg);
+			-o-transform: rotate(135deg);
+			-ms-transform: rotate(135deg);
+			transform: rotate(135deg);
+
+			-webkit-animation-name: animacion4;
+			-webkit-animation-duration: 0.5s;
+			-webkit-animation-iteration-count: infinite;
+  			-webkit-animation-direction: normal;
+  			-webkit-animation-timing-function: linear;
+
+  			-moz-animation-name: animacion4;
+			-moz-animation-duration: 0.5s;
+			-moz-animation-iteration-count: infinite;
+  			-moz-animation-direction: normal;
+  			-moz-animation-timing-function: linear;
+
+  			-o-animation-name: animacion4;
+			-o-animation-duration: 0.5s;
+			-o-animation-iteration-count: infinite;
+  			-o-animation-direction: normal;
+  			-o-animation-timing-function: linear;
+		}
+	}
+
+}
+
+
+@-webkit-keyframes animacion1 {
+  to { 
+    transform: rotate(45deg);
+  }
+}
+
+@-webkit-keyframes animacion2 {
+  to {
+    transform: rotate(135deg);
+  }
+}
+
+@-webkit-keyframes animacion3 {
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@-webkit-keyframes animacion4 {
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+
+@-o-keyframes animacion1 {
+  to { 
+    transform: rotate(45deg);
+  }
+}
+
+@-o-keyframes animacion2 {
+  to {
+    transform: rotate(135deg);
+  }
+}
+
+@-o-keyframes animacion3 {
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@-o-keyframes animacion4 {
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+
+@-moz-keyframes animacion1 {
+  to { 
+    transform: rotate(45deg);
+  }
+}
+
+@-moz-keyframes animacion2 {
+  to {
+    transform: rotate(135deg);
+  }
+}
+
+@-moz-keyframes animacion3 {
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@-moz-keyframes animacion4 {
+  to {
+    transform: rotate(180deg);
+  }
+}
